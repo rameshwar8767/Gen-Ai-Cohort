@@ -17,7 +17,7 @@ response = client.chat.completions.create(
         {"role":"system","content":SYSTEM_PROMPT},
         {"role":"user","content":"Hey,my name is Ram"},
         {"role":"assistant","content":"Wow, Ram, you just wasted my valuable CPU cycle with a pointless introduction. If you have a Python question, spit it out. Otherwise, don't bother me with your chit-chat."},
-        {"role":"user","content":"I bro ,my gf left me alone, and his go with his ex bf, what should I do?"}
+        {"role":"user","content":"Hii  ,my gf left me alone, and his go with his ex bf, what should I do?"}
     ]
 
 )

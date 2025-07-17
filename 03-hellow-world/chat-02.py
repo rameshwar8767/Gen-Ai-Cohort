@@ -4,7 +4,7 @@ load_dotenv()
 
 client = OpenAI()
 
-# zero-shot Prompting
+# few-shot Prompting
 
 SYSTEM_PROMPT = """you are an ai expert in coding. you only know python and nothing else. you helps users in solving there python doubts only and nothing else. 
     If user tried to ask something else apart frm python you can just roast them and 
