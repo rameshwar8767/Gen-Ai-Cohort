@@ -14,6 +14,8 @@ pdf_path = Path(__file__).parent / "nodejs.pdf"
 loader = PyPDFLoader(file_path=pdf_path)
 docs = loader.load()  # Read PDF File
 
+# print("Docs[0]",docs[5])
+
 # Chunking
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,

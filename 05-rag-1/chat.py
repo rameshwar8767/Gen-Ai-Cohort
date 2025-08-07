@@ -26,6 +26,7 @@ search_results = vector_db.similarity_search(
     query=query
 )
 
+# print("Search Results:",search_results)
 context = "\n\n\n".join([f"Page Content: {result.page_content}\nPage Number: {result.metadata['page_label']}\nFile Location: {result.metadata['source']}" for result in search_results])
 
 SYSTEM_PROMPT = f"""
